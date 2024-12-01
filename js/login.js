@@ -9,6 +9,4 @@ document.getElementById('login-btn').addEventListener('click', function(event){
     else{
         alert('Wrong phone or pin')
     }
-    console.log(phoneNumber, pinNumber)
-    
 })
