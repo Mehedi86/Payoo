@@ -22,7 +22,7 @@ document.getElementById('cash-out-button').addEventListener('click', function(ev
     if(cashOutPin === '1234'){
         const balance = document.getElementById('total-balance').innerText;
         const balanceNumber = parseFloat(balance);
-        const newBalance = balance - cashOutInputNumber;
+        const newBalance = balanceNumber - cashOutInputNumber;
         document.getElementById('total-balance').innerText = newBalance;
     }
     else{

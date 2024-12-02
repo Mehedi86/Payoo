@@ -10,3 +10,4 @@ document.getElementById('login-btn').addEventListener('click', function (event) 
         alert('Wrong phone or pin')
     }
 })
+
